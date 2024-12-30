@@ -56,6 +56,7 @@ workflow NFCORE_PLASMIDCOMPARE {
     emit:
     multiqc_report = PLASMIDCOMPARE.out.multiqc_report // channel: /path/to/multiqc_report.html
 }
+
 /*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     RUN MAIN WORKFLOW
